@@ -8,17 +8,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="Program: AddScoped mockCategory, Icategory, Ipie, mockpie repositories,&#10;MockCategoryRepository and MockPieRepository created,&#10;Pie: error in pie fixed, Instock property added">
-      <change afterPath="$PROJECT_DIR$/Controllers/PieController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ViewModels/PieListViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Pie/List.cshtml" afterDir="false" />
+    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="List: view created, PieController: creation, ViewModel: PieListViewModel created">
+      <change afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/_ViewStart.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/MockPieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/MockPieRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanysPieShop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BethanysPieShop.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Pie/List.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Pie/List.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,6 +39,7 @@
   }
 }]]></component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Models/MockPieRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Models/Pie.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Program.cs" root0="SKIP_HIGHLIGHTING" />
@@ -119,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719931240428</updated>
-      <workItem from="1719931241457" duration="9290000" />
+      <workItem from="1719931241457" duration="10019000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -161,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719936411296</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="List: view created, PieController: creation, ViewModel: PieListViewModel created">
+      <option name="closed" value="true" />
+      <created>1719941225684</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719941225684</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +188,7 @@
     <MESSAGE value=".." />
     <MESSAGE value="Models: Category, ICategoryRepository, IPieRepository, Pie creation" />
     <MESSAGE value="Program: AddScoped mockCategory, Icategory, Ipie, mockpie repositories,&#10;MockCategoryRepository and MockPieRepository created,&#10;Pie: error in pie fixed, Instock property added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Program: AddScoped mockCategory, Icategory, Ipie, mockpie repositories,&#10;MockCategoryRepository and MockPieRepository created,&#10;Pie: error in pie fixed, Instock property added" />
+    <MESSAGE value="List: view created, PieController: creation, ViewModel: PieListViewModel created" />
+    <option name="LAST_COMMIT_MESSAGE" value="List: view created, PieController: creation, ViewModel: PieListViewModel created" />
   </component>
 </project>
