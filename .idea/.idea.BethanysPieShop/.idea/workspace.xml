@@ -8,11 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="Models: Category, ICategoryRepository, IPieRepository, Pie creation">
-      <change afterPath="$PROJECT_DIR$/Models/MockCategoryRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/MockPieRepository.cs" afterDir="false" />
+    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="Program: AddScoped mockCategory, Icategory, Ipie, mockpie repositories,&#10;MockCategoryRepository and MockPieRepository created,&#10;Pie: error in pie fixed, Instock property added">
+      <change afterPath="$PROJECT_DIR$/Controllers/PieController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ViewModels/PieListViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Pie/List.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/MockPieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/MockPieRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +36,15 @@
   }
 }]]></component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Models/Pie.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/Category.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/ICategoryRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/IPieRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/MockCategoryRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/MockPieRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/Pie.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
@@ -52,6 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.BethanysPieShop: http.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -59,6 +68,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "HotReloadSettingsPage",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -109,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719931240428</updated>
-      <workItem from="1719931241457" duration="4617000" />
+      <workItem from="1719931241457" duration="9290000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -143,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719935270517</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Program: AddScoped mockCategory, Icategory, Ipie, mockpie repositories,&#10;MockCategoryRepository and MockPieRepository created,&#10;Pie: error in pie fixed, Instock property added">
+      <option name="closed" value="true" />
+      <created>1719936411296</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719936411296</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +175,7 @@
     <MESSAGE value="Program: Middleware Added, UseStaticFiles, UseDeveloperExceptionPage, MapDefaultControllerRoute" />
     <MESSAGE value=".." />
     <MESSAGE value="Models: Category, ICategoryRepository, IPieRepository, Pie creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Models: Category, ICategoryRepository, IPieRepository, Pie creation" />
+    <MESSAGE value="Program: AddScoped mockCategory, Icategory, Ipie, mockpie repositories,&#10;MockCategoryRepository and MockPieRepository created,&#10;Pie: error in pie fixed, Instock property added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Program: AddScoped mockCategory, Icategory, Ipie, mockpie repositories,&#10;MockCategoryRepository and MockPieRepository created,&#10;Pie: error in pie fixed, Instock property added" />
   </component>
 </project>
