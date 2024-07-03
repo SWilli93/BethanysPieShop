@@ -8,12 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="Category and Pie Repository creation">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanysPieShop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BethanysPieShop.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Pie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Pie.cs" afterDir="false" />
+    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="sqlite DB added">
+      <change afterPath="$PROJECT_DIR$/Models/DbInitializer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +37,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/Category.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/ICategoryRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/IPieRepository.cs" root0="SKIP_HIGHLIGHTING" />
@@ -48,6 +46,7 @@
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/Pie.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/05/demos/BethanysPieShop/BethanysPieShop/Models/Category.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/05/demos/BethanysPieShop/BethanysPieShop/Models/CategoryRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/05/demos/BethanysPieShop/BethanysPieShop/Models/DbInitializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/05/demos/BethanysPieShop/BethanysPieShop/Models/Pie.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -131,7 +130,7 @@
       <workItem from="1719931241457" duration="10019000" />
       <workItem from="1720027437493" duration="28000" />
       <workItem from="1720027483832" duration="995000" />
-      <workItem from="1720028761920" duration="6707000" />
+      <workItem from="1720028761920" duration="7038000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -205,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720030482622</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="sqlite DB added">
+      <option name="closed" value="true" />
+      <created>1720036236862</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720036236862</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +231,7 @@
     <MESSAGE value="Bootstrap, Jquery added shared layout with css applied" />
     <MESSAGE value="SQLServer Connections: appsettings, program, BethanysPieShopDbContext model" />
     <MESSAGE value="Category and Pie Repository creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Category and Pie Repository creation" />
+    <MESSAGE value="sqlite DB added" />
+    <option name="LAST_COMMIT_MESSAGE" value="sqlite DB added" />
   </component>
 </project>
