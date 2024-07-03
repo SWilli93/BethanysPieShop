@@ -8,12 +8,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Models/BethanysPieShopDbContext.cs" afterDir="false" />
+    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="SQLServer Connections: appsettings, program, BethanysPieShopDbContext model">
+      <change afterPath="$PROJECT_DIR$/Models/CategoryRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/PieRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanysPieShop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BethanysPieShop.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +38,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Models/MockPieRepository.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Models/Pie.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/Category.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/ICategoryRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/IPieRepository.cs" root0="SKIP_HIGHLIGHTING" />
@@ -125,7 +122,8 @@
       <updated>1719931240428</updated>
       <workItem from="1719931241457" duration="10019000" />
       <workItem from="1720027437493" duration="28000" />
-      <workItem from="1720027483832" duration="671000" />
+      <workItem from="1720027483832" duration="995000" />
+      <workItem from="1720028761920" duration="968000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -183,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720025837943</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="SQLServer Connections: appsettings, program, BethanysPieShopDbContext model">
+      <option name="closed" value="true" />
+      <created>1720028342979</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720028342979</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +206,7 @@
     <MESSAGE value="Program: AddScoped mockCategory, Icategory, Ipie, mockpie repositories,&#10;MockCategoryRepository and MockPieRepository created,&#10;Pie: error in pie fixed, Instock property added" />
     <MESSAGE value="List: view created, PieController: creation, ViewModel: PieListViewModel created" />
     <MESSAGE value="Bootstrap, Jquery added shared layout with css applied" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap, Jquery added shared layout with css applied" />
+    <MESSAGE value="SQLServer Connections: appsettings, program, BethanysPieShopDbContext model" />
+    <option name="LAST_COMMIT_MESSAGE" value="SQLServer Connections: appsettings, program, BethanysPieShopDbContext model" />
   </component>
 </project>
