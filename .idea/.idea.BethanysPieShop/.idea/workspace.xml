@@ -8,12 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="List: view created, PieController: creation, ViewModel: PieListViewModel created">
-      <change afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/_ViewStart.cshtml" afterDir="false" />
+    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Models/BethanysPieShopDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanysPieShop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BethanysPieShop.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Pie/List.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Pie/List.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,18 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SWilli93"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SWilli93&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SWilli93/BethanysPieShop.git",
-    "accountId": "b0237ec6-cf7a-4c35-b583-04c6aea73e91"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SWilli93/BethanysPieShop.git&quot;,
+    &quot;accountId&quot;: &quot;b0237ec6-cf7a-4c35-b583-04c6aea73e91&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Models/MockPieRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Models/Pie.cs" root0="SKIP_HIGHLIGHTING" />
@@ -51,9 +51,9 @@
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/Pie.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2ih82StqfLrHcim0GMbRA8Wzdmk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,27 +62,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.BethanysPieShop: http.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "HotReloadSettingsPage",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.BethanysPieShop: http.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;HotReloadSettingsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/scottwilliams/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
-      "/Users/scottwilliams/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
-      "/Users/scottwilliams/Library/Application Support/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/scottwilliams/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/scottwilliams/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/scottwilliams/Library/Application Support/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.BethanysPieShop: http">
     <configuration name="BethanysPieShop: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BethanysPieShop.csproj" />
@@ -124,6 +124,8 @@
       <option name="presentableId" value="Default" />
       <updated>1719931240428</updated>
       <workItem from="1719931241457" duration="10019000" />
+      <workItem from="1720027437493" duration="28000" />
+      <workItem from="1720027483832" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -173,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719941225684</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Bootstrap, Jquery added shared layout with css applied">
+      <option name="closed" value="true" />
+      <created>1720025837943</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720025837943</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +199,7 @@
     <MESSAGE value="Models: Category, ICategoryRepository, IPieRepository, Pie creation" />
     <MESSAGE value="Program: AddScoped mockCategory, Icategory, Ipie, mockpie repositories,&#10;MockCategoryRepository and MockPieRepository created,&#10;Pie: error in pie fixed, Instock property added" />
     <MESSAGE value="List: view created, PieController: creation, ViewModel: PieListViewModel created" />
-    <option name="LAST_COMMIT_MESSAGE" value="List: view created, PieController: creation, ViewModel: PieListViewModel created" />
+    <MESSAGE value="Bootstrap, Jquery added shared layout with css applied" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap, Jquery added shared layout with css applied" />
   </component>
 </project>
