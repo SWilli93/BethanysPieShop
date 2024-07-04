@@ -8,8 +8,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="ShoppingCart, ShoppingCartItem, IShoppingCart">
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="ShoppingCartController, session, httpcontextaccessor, addscoptted shoping cart services">
+      <change afterPath="$PROJECT_DIR$/ViewModels/ShoppingCartViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/ShoppingCartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ShoppingCartController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Pie/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Pie/List.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -52,6 +55,7 @@
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/06/demos/BethanysPieShop/BethanysPieShop/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/06/demos/BethanysPieShop/BethanysPieShop/Views/Pie/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/06/demos/BethanysPieShop/BethanysPieShop/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/Controllers/ShoppingCartController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/Models/ShoppingCart.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -137,7 +141,7 @@
       <workItem from="1720027437493" duration="28000" />
       <workItem from="1720027483832" duration="995000" />
       <workItem from="1720028761920" duration="11732000" />
-      <workItem from="1720103672513" duration="3400000" />
+      <workItem from="1720103672513" duration="3815000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -259,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720106857496</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ShoppingCartController, session, httpcontextaccessor, addscoptted shoping cart services">
+      <option name="closed" value="true" />
+      <created>1720107293963</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1720107293963</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +297,7 @@
     <MESSAGE value="Partial _PieCard, List, index refactor" />
     <MESSAGE value="Carousel partial, Index carousel refactor" />
     <MESSAGE value="ShoppingCart, ShoppingCartItem, IShoppingCart" />
-    <option name="LAST_COMMIT_MESSAGE" value="ShoppingCart, ShoppingCartItem, IShoppingCart" />
+    <MESSAGE value="ShoppingCartController, session, httpcontextaccessor, addscoptted shoping cart services" />
+    <option name="LAST_COMMIT_MESSAGE" value="ShoppingCartController, session, httpcontextaccessor, addscoptted shoping cart services" />
   </component>
 </project>
