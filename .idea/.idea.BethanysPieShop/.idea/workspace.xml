@@ -8,23 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="Carousel partial, Index carousel refactor">
-      <change afterPath="$PROJECT_DIR$/Migrations/20240704151332_ShoppingCartItemMig.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20240704151332_ShoppingCartItemMig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Interfaces/IShoppingCart.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/ShoppingCart.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/ShoppingCartItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/dataSources/c1235151-225e-4a5a-bbba-15b5997270f3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/dataSources/c1235151-225e-4a5a-bbba-15b5997270f3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanysPieShop.db" beforeDir="false" afterPath="$PROJECT_DIR$/BethanysPieShop.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/BethanysPieShopDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/BethanysPieShopDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/BethanysPieShopDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/BethanysPieShopDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/CategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Repositories/CategoryRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/ICategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Interfaces/ICategoryRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/IPieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Interfaces/IPieRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/MockCategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Repositories/MockCategoryRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/MockPieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Repositories/MockPieRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/PieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Repositories/PieRepository.cs" afterDir="false" />
+    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="ShoppingCart, ShoppingCartItem, IShoppingCart">
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +137,7 @@
       <workItem from="1720027437493" duration="28000" />
       <workItem from="1720027483832" duration="995000" />
       <workItem from="1720028761920" duration="11732000" />
-      <workItem from="1720103672513" duration="3022000" />
+      <workItem from="1720103672513" duration="3400000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -266,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720104949393</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ShoppingCart, ShoppingCartItem, IShoppingCart">
+      <option name="closed" value="true" />
+      <created>1720106857496</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720106857496</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +284,7 @@
     <MESSAGE value="Routing: Homepage view/controller/viewmodel with bootstrap, Layout nav bar home and list links, Details view, list details link, pie controller details action" />
     <MESSAGE value="Partial _PieCard, List, index refactor" />
     <MESSAGE value="Carousel partial, Index carousel refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Carousel partial, Index carousel refactor" />
+    <MESSAGE value="ShoppingCart, ShoppingCartItem, IShoppingCart" />
+    <option name="LAST_COMMIT_MESSAGE" value="ShoppingCart, ShoppingCartItem, IShoppingCart" />
   </component>
 </project>
