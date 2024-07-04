@@ -8,9 +8,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="sqlite DB added">
-      <change afterPath="$PROJECT_DIR$/Models/DbInitializer.cs" afterDir="false" />
+    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="DbInitializer: Database seed">
+      <change afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ViewModels/HomeViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Home/index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Pie/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/PieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/PieController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Pie/List.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Pie/List.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/_ViewImports.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +45,10 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Pie/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Pie/List.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/Category.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/ICategoryRepository.cs" root0="SKIP_HIGHLIGHTING" />
@@ -48,6 +60,9 @@
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/05/demos/BethanysPieShop/BethanysPieShop/Models/CategoryRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/05/demos/BethanysPieShop/BethanysPieShop/Models/DbInitializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/05/demos/BethanysPieShop/BethanysPieShop/Models/Pie.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/06/demos/BethanysPieShop/BethanysPieShop/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/06/demos/BethanysPieShop/BethanysPieShop/Views/Pie/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/06/demos/BethanysPieShop/BethanysPieShop/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -130,7 +145,7 @@
       <workItem from="1719931241457" duration="10019000" />
       <workItem from="1720027437493" duration="28000" />
       <workItem from="1720027483832" duration="995000" />
-      <workItem from="1720028761920" duration="7038000" />
+      <workItem from="1720028761920" duration="10720000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -212,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720036236862</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="DbInitializer: Database seed">
+      <option name="closed" value="true" />
+      <created>1720049332721</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720049332721</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +255,7 @@
     <MESSAGE value="SQLServer Connections: appsettings, program, BethanysPieShopDbContext model" />
     <MESSAGE value="Category and Pie Repository creation" />
     <MESSAGE value="sqlite DB added" />
-    <option name="LAST_COMMIT_MESSAGE" value="sqlite DB added" />
+    <MESSAGE value="DbInitializer: Database seed" />
+    <option name="LAST_COMMIT_MESSAGE" value="DbInitializer: Database seed" />
   </component>
 </project>
