@@ -8,10 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="ShoppingCartController, session, httpcontextaccessor, addscoptted shoping cart services">
-      <change afterPath="$PROJECT_DIR$/ViewModels/ShoppingCartViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ShoppingCartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ShoppingCartController.cs" afterDir="false" />
+    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="ShoppingCartViewModel, ShoppingCartController methods">
+      <change afterPath="$PROJECT_DIR$/Views/ShoppingCart/Index.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,7 @@
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/06/demos/BethanysPieShop/BethanysPieShop/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/Controllers/ShoppingCartController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/Models/ShoppingCart.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/Views/ShoppingCart/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -141,7 +140,7 @@
       <workItem from="1720027437493" duration="28000" />
       <workItem from="1720027483832" duration="995000" />
       <workItem from="1720028761920" duration="11732000" />
-      <workItem from="1720103672513" duration="3815000" />
+      <workItem from="1720103672513" duration="3974000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -271,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720107293963</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ShoppingCartViewModel, ShoppingCartController methods">
+      <option name="closed" value="true" />
+      <created>1720107526041</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1720107526041</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +305,7 @@
     <MESSAGE value="Carousel partial, Index carousel refactor" />
     <MESSAGE value="ShoppingCart, ShoppingCartItem, IShoppingCart" />
     <MESSAGE value="ShoppingCartController, session, httpcontextaccessor, addscoptted shoping cart services" />
-    <option name="LAST_COMMIT_MESSAGE" value="ShoppingCartController, session, httpcontextaccessor, addscoptted shoping cart services" />
+    <MESSAGE value="ShoppingCartViewModel, ShoppingCartController methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="ShoppingCartViewModel, ShoppingCartController methods" />
   </component>
 </project>
