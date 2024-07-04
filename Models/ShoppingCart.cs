@@ -97,7 +97,7 @@ namespace BethanysPieShop.Models
             _bethanysPieShopDbContext.SaveChanges();
         }
 
-        public decimal GetShoppingCartTotal()
+        public double GetShoppingCartTotal()
         {
             var total = _bethanysPieShopDbContext.ShoppingCartItems.Where(c => c.ShoppingCartId == ShoppingCartId)
                 .Select(c => c.Pie.Price * c.Amount).Sum();

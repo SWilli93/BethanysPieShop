@@ -8,10 +8,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="ShoppingCartView">
+    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="pieCard, details, Shopping cart add button">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Pie/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Pie/Details.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_PieCard.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_PieCard.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanysPieShop.db" beforeDir="false" afterPath="$PROJECT_DIR$/BethanysPieShop.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/DbInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/DbInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Interfaces/IShoppingCart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Interfaces/IShoppingCart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Pie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Pie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/ShoppingCart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ShoppingCart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModels/ShoppingCartViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/ShoppingCartViewModel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +42,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Views/Pie/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Pie/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Pie/List.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -144,7 +149,7 @@
       <workItem from="1720027437493" duration="28000" />
       <workItem from="1720027483832" duration="995000" />
       <workItem from="1720028761920" duration="11732000" />
-      <workItem from="1720103672513" duration="4155000" />
+      <workItem from="1720103672513" duration="5851000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -290,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720107672431</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="pieCard, details, Shopping cart add button">
+      <option name="closed" value="true" />
+      <created>1720107854633</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1720107854633</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +332,7 @@
     <MESSAGE value="ShoppingCartController, session, httpcontextaccessor, addscoptted shoping cart services" />
     <MESSAGE value="ShoppingCartViewModel, ShoppingCartController methods" />
     <MESSAGE value="ShoppingCartView" />
-    <option name="LAST_COMMIT_MESSAGE" value="ShoppingCartView" />
+    <MESSAGE value="pieCard, details, Shopping cart add button" />
+    <option name="LAST_COMMIT_MESSAGE" value="pieCard, details, Shopping cart add button" />
   </component>
 </project>

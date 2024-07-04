@@ -10,7 +10,7 @@ public interface IShoppingCart
     
     void ClearCart();
     
-    decimal GetShoppingCartTotal();
+    double GetShoppingCartTotal();
     
     List<ShoppingCartItem> ShoppingCartItems { get; set; }
 }
