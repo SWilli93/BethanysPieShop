@@ -8,15 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Views/Shared/_PieCard.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/dataSources/22960c75-72a7-450e-9140-1d674a90d51b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/dataSources/22960c75-72a7-450e-9140-1d674a90d51b/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/dataSources/d865c910-aed9-4d87-bc12-6a5ed7f7e961.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/dataSources/d865c910-aed9-4d87-bc12-6a5ed7f7e961/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanysPieShop.db-shm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanysPieShop.db-wal" beforeDir="false" />
+    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="Partial _PieCard, List, index refactor">
+      <change afterPath="$PROJECT_DIR$/Views/Shared/_Carousel.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Home/index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/index.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +142,7 @@
       <workItem from="1720027437493" duration="28000" />
       <workItem from="1720027483832" duration="995000" />
       <workItem from="1720028761920" duration="11732000" />
-      <workItem from="1720103672513" duration="799000" />
+      <workItem from="1720103672513" duration="1098000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -247,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720053588807</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Partial _PieCard, List, index refactor">
+      <option name="closed" value="true" />
+      <created>1720104703630</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720104703630</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +270,7 @@
     <MESSAGE value="sqlite DB added" />
     <MESSAGE value="DbInitializer: Database seed" />
     <MESSAGE value="Routing: Homepage view/controller/viewmodel with bootstrap, Layout nav bar home and list links, Details view, list details link, pie controller details action" />
-    <option name="LAST_COMMIT_MESSAGE" value="Routing: Homepage view/controller/viewmodel with bootstrap, Layout nav bar home and list links, Details view, list details link, pie controller details action" />
+    <MESSAGE value="Partial _PieCard, List, index refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Partial _PieCard, List, index refactor" />
   </component>
 </project>
