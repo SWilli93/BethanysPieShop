@@ -8,16 +8,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Components/CategoryMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/ShoppingCartSummary.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Shared/Components/CategoryMenu/Default.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Shared/Components/ShoppingCartSummary/Default.cshtml" afterDir="false" />
+    <list default="true" id="6b7e50b2-3ad1-46e3-a0bd-c0bc5bbfbbb0" name="Changes" comment="_Layout dropdown menu refactor">
+      <change afterPath="$PROJECT_DIR$/Controllers/ContactController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TagHelpers/EmailTagHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Contact/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanysPieShop.db" beforeDir="false" afterPath="$PROJECT_DIR$/BethanysPieShop.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanysPieShop.db-shm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanysPieShop.db-wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/_ViewImports.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,9 +39,12 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Controllers/PieController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Pie/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Pie/List.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/scottwilliams/Desktop/Code/C#_Projects/Asp.net_Projects/BethanysPieShop/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/Category.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/04/demos/BethanysPieShop/BethanysPieShop/Models/ICategoryRepository.cs" root0="SKIP_HIGHLIGHTING" />
@@ -62,11 +60,15 @@
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/06/demos/BethanysPieShop/BethanysPieShop/Views/Pie/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/06/demos/BethanysPieShop/BethanysPieShop/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/Components/CategoryMenu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/Controllers/PieController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/Controllers/ShoppingCartController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/Models/ShoppingCart.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/TagHelpers/EmailTagHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/Views/Contact/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/Views/Pie/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/Views/Shared/Components/CategoryMenu/Default.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/Views/Shared/Components/ShoppingCartSummary/Default.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/Views/Shared/_PieCard.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/asp-dot-net-core-6-fundamentals/07/demos/BethanysPieShop/BethanysPieShop/Views/ShoppingCart/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
@@ -155,7 +157,7 @@
       <workItem from="1720028761920" duration="11732000" />
       <workItem from="1720103672513" duration="12007000" />
       <workItem from="1720307169005" duration="351000" />
-      <workItem from="1720447948155" duration="5966000" />
+      <workItem from="1720447948155" duration="7838000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -317,7 +319,39 @@
       <option name="project" value="LOCAL" />
       <updated>1720109703789</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="ShoppingCartSummary Components added">
+      <option name="closed" value="true" />
+      <created>1720462262762</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1720462262762</updated>
+    </task>
+    <task id="LOCAL-00022" summary="CategoryMenu Component added">
+      <option name="closed" value="true" />
+      <created>1720462287168</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1720462287168</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Pie controller List refactor">
+      <option name="closed" value="true" />
+      <created>1720462353994</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1720462353994</updated>
+    </task>
+    <task id="LOCAL-00024" summary="_Layout dropdown menu refactor">
+      <option name="closed" value="true" />
+      <created>1720462439241</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1720462439241</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +382,10 @@
     <MESSAGE value="ShoppingCartView" />
     <MESSAGE value="pieCard, details, Shopping cart add button" />
     <MESSAGE value="fixed issue: sqlite sum fix, getshoppingcarttotal changed to double" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed issue: sqlite sum fix, getshoppingcarttotal changed to double" />
+    <MESSAGE value="ShoppingCartSummary Components added" />
+    <MESSAGE value="CategoryMenu Component added" />
+    <MESSAGE value="Pie controller List refactor" />
+    <MESSAGE value="_Layout dropdown menu refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="_Layout dropdown menu refactor" />
   </component>
 </project>

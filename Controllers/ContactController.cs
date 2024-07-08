@@ -1,0 +1,11 @@
+using Microsoft.AspNetCore.Mvc;
+
+namespace BethanysPieShop.Controllers;
+
+public class ContactController : Controller
+{
+    public IActionResult index()
+    {
+        return View();
+    }
+}
